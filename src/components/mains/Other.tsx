@@ -16,7 +16,7 @@ export default function Other() {
                         <li>LinkedIn : <a href="">@linkedin</a></li>
                     </MainUlStyle>
                     <Newlineh3Style className="newline">Thanks for reading my resume!</Newlineh3Style>
-                    <ImageStyle src="src/assets/thankyou.jpg" alt="thank you"/>
+                    <ImageStyle src="/src/assets/thankyou.jpg" alt="thank you"/>
                 </MainWrapperStyle>
             </MainStyle>
         </>
