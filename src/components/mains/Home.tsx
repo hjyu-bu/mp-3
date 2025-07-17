@@ -14,7 +14,7 @@ export default function Home() {
         <>
             <title>Home | Resume</title>
             <MainStyle>
-                <ImageStyle src={"/src/assets/me.jpg"} alt="profile picture"/>
+                <ImageStyle src={"public/me.jpg"} alt="profile picture"/>
                 <IntroStyle id="intro">
                     A computer scientist / AI engineer who can quickly learn and adapt, cooperate well in teams.
                 </IntroStyle>
