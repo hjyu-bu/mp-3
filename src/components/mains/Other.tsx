@@ -1,4 +1,5 @@
 import {MainStyle, MainWrapperStyle, MainUlStyle, ImageStyle, Newlineh3Style} from "../Styles.tsx";
+import ThanksImage from "/src/assets/thankyou.jpg"
 
 export default function Other() {
 
@@ -16,7 +17,7 @@ export default function Other() {
                         <li>LinkedIn : <a href="">@linkedin</a></li>
                     </MainUlStyle>
                     <Newlineh3Style className="newline">Thanks for reading my resume!</Newlineh3Style>
-                    <ImageStyle src="public/thankyou.jpg" alt="thank you"/>
+                    <ImageStyle src={ThanksImage} alt="thank you"/>
                 </MainWrapperStyle>
             </MainStyle>
         </>

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import {MainStyle, ImageStyle} from "../Styles.tsx";
+import MeImage from "/src/assets/me.jpg"
 
 const IntroStyle = styled.h6`
     font-size: calc(2px + 0.75vw + 0.5vh);
@@ -14,7 +15,7 @@ export default function Home() {
         <>
             <title>Home | Resume</title>
             <MainStyle>
-                <ImageStyle src={"public/me.jpg"} alt="profile picture"/>
+                <ImageStyle src={MeImage} alt="profile picture"/>
                 <IntroStyle id="intro">
                     A computer scientist / AI engineer who can quickly learn and adapt, cooperate well in teams.
                 </IntroStyle>
